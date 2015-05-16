@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>HACKERX</Machine>
+    <WindowsUser>HACKERX</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Release|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>5109fdb6-b9e0-4e76-8e1a-cdfb4338ab85</PackageIdentityName>
+    <IntermediateOutputPath>c:\users\andrei\documents\visual studio 2013\Proiecte\LittleNotes\LittleNotes\LittleNotes.Windows\obj\Release\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>11DFC83B4EE5ED7C571671C3C6C1FC9204144B48508558DB110972212227D740</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>5109fdb6-b9e0-4e76-8e1a-cdfb4338ab85_1.0.0.0_neutral__b3q168kgt5vg0</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>5109fdb6-b9e0-4e76-8e1a-cdfb4338ab85_b3q168kgt5vg0!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>5109fdb6-b9e0-4e76-8e1a-cdfb4338ab85</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=HACKERX</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="c:\users\andrei\documents\visual studio 2013\Proiecte\LittleNotes\LittleNotes\LittleNotes.Windows\bin\Release\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-05-12T17:37:17.302</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="c:\users\andrei\documents\visual studio 2013\Proiecte\LittleNotes\LittleNotes\LittleNotes.Windows\bin\Release\LittleNotes.Windows.exe">
+      <PackagePath>LittleNotes.Windows.exe</PackagePath>
+      <Modified>2015-05-12T17:37:10.761</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\MSAdvertisingXaml\8.1\References\CommonConfiguration\neutral\Microsoft.Advertising.WinRT.UI.winmd">
+      <PackagePath>Microsoft.Advertising.WinRT.UI.winmd</PackagePath>
+      <Modified>2013-09-13T08:42:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\MSAdvertisingXaml\8.1\References\CommonConfiguration\neutral\MicrosoftAdvertising.winmd">
+      <PackagePath>MicrosoftAdvertising.winmd</PackagePath>
+      <Modified>2013-09-13T08:42:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\MSAdvertisingXaml\8.1\Redist\CommonConfiguration\neutral\Microsoft.Advertising.WinRT.UI\AdSettingsFlyout.xbf">
+      <PackagePath>Microsoft.Advertising.WinRT.UI\AdSettingsFlyout.xbf</PackagePath>
+      <Modified>2013-09-13T08:42:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\MSAdvertisingXaml\8.1\Redist\CommonConfiguration\neutral\Microsoft.Advertising.WinRT.UI\Themes\Generic.xbf">
+      <PackagePath>Microsoft.Advertising.WinRT.UI\Themes\Generic.xbf</PackagePath>
+      <Modified>2013-09-13T08:42:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\MSAdvertisingXaml\8.1\Redist\CommonConfiguration\neutral\Microsoft.Advertising.WinRT.UI\bootstrap.html">
+      <PackagePath>Microsoft.Advertising.WinRT.UI\bootstrap.html</PackagePath>
+      <Modified>2013-09-13T08:43:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\MSAdvertisingXaml\8.1\Redist\CommonConfiguration\neutral\Microsoft.Advertising.WinRT.UI\ormma.js">
+      <PackagePath>Microsoft.Advertising.WinRT.UI\ormma.js</PackagePath>
+      <Modified>2013-09-13T08:46:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\andrei\documents\visual studio 2013\Proiecte\LittleNotes\LittleNotes\LittleNotes.Windows\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-14T07:55:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\andrei\documents\visual studio 2013\Proiecte\LittleNotes\LittleNotes\LittleNotes.Windows\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-14T07:55:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\andrei\documents\visual studio 2013\Proiecte\LittleNotes\LittleNotes\LittleNotes.Windows\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-14T07:55:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\andrei\documents\visual studio 2013\Proiecte\LittleNotes\LittleNotes\LittleNotes.Windows\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-14T07:55:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\andrei\documents\visual studio 2013\Proiecte\LittleNotes\LittleNotes\LittleNotes.Windows\bin\Release\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2015-05-12T17:37:10.308</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\andrei\documents\visual studio 2013\Proiecte\LittleNotes\LittleNotes\LittleNotes.Windows\bin\Release\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2015-05-12T17:37:10.309</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\andrei\documents\visual studio 2013\Proiecte\LittleNotes\LittleNotes\LittleNotes.Windows\bin\Release\LittleNotes.Windows.xr.xml">
+      <PackagePath>LittleNotes.Windows.xr.xml</PackagePath>
+      <Modified>2015-05-12T17:37:10.171</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\andrei\documents\visual studio 2013\Proiecte\LittleNotes\LittleNotes\LittleNotes.Windows\bin\Release\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2015-05-12T17:37:11.228</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

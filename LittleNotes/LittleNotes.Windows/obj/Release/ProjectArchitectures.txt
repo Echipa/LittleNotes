@@ -1,0 +1,1 @@
+c:\users\andrei\documents\visual studio 2013\Proiecte\LittleNotes\LittleNotes\LittleNotes.Windows\LittleNotes.Windows.csproj;neutral
