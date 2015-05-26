@@ -130,6 +130,7 @@
     <Content Include="Assets\SmallLogo.scale-100.png" />
     <Content Include="Assets\SplashScreen.scale-100.png" />
     <Content Include="Assets\StoreLogo.scale-100.png" />
+    <Content Include="Exploring a Team Site in SharePoint 2013.mp4" />
     <Content Include="red_guitar_wallpaper_by_luna_fantasma_by_luna_fantasma-d6u08c3.jpg" />
   </ItemGroup>
   <ItemGroup>

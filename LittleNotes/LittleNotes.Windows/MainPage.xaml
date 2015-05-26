@@ -40,7 +40,7 @@
                 <ImageBrush ImageSource="red_guitar_wallpaper_by_luna_fantasma_by_luna_fantasma-d6u08c3.jpg" Opacity="0.8" />
             </Ellipse.Fill>
         </Ellipse>
-        <Image Height="100" Width="100" Source="3d_piano_stairs_hd_desktop_wallpaper.jpg" Margin="1243,668,23,0" Stretch="Fill" RenderTransformOrigin="0.5,0.5">
+        <Image Height="100" Width="100" Source="3d_piano_stairs_hd_desktop_wallpaper.jpg" Margin="1237,658,29,10" Stretch="Fill" RenderTransformOrigin="0.5,0.5">
             <Image.Projection>
                 <PlaneProjection RotationX="-21.59" RotationY="46.914" RotationZ="-8.242"/>
             </Image.Projection>
@@ -48,10 +48,9 @@
         <ContentControl x:Name="videoContainer" 
                 
                 HorizontalContentAlignment="Center" 
-                VerticalContentAlignment="Center" 
-                Height="400" Grid.Row="0" RenderTransformOrigin="0.5,0.49" >
+                VerticalContentAlignment="Center" Grid.Row="0" RenderTransformOrigin="0.474,0.32" Margin="10,195,714,195" >
             <MediaElement Name="videoMediaElement"
-                  Source="" 
+                  Source="Exploring a Team Site in SharePoint 2013.mp4" 
                   
                 
                   MediaFailed="videoMediaElement_MediaFailed"
@@ -61,7 +60,7 @@
         </ContentControl>
 
 
-        <StackPanel Orientation="Horizontal" Margin="636,63,-636,-63">
+        <StackPanel Orientation="Horizontal" Margin="652,230,0,-113">
             <Button Name="btnPlay" Click="btnPlay_Click" 
              Content="Play" />
             <Button Name="btnPause" Click="btnPause_Click"

@@ -198,7 +198,7 @@ namespace LittleNotes
 
     private void btnReverse_Click(object sender, RoutedEventArgs e)
     {
-        videoMediaElement.DefaultPlaybackRate = -2.0;
+        videoMediaElement.DefaultPlaybackRate = -2;
         videoMediaElement.Play();;
     }
 
