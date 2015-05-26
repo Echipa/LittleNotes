@@ -10,7 +10,7 @@
     <Page.BottomAppBar>
         <AppBar Height="122">
             <StackPanel Orientation="Horizontal">
-                <AppBarButton x:ConnectionId='1' x:Name="SaveClose" Icon="Accept" Label="Save and Close"                         Height="118"/>
+                <AppBarButton x:ConnectionId='1' x:Name="SaveClose" Label="Save and Close"                         Height="118" Icon="Accept"/>
                 <AppBarButton x:ConnectionId='2' HorizontalAlignment="Stretch" Label="Delete Selected" VerticalAlignment="Stretch" Icon="Delete"                           />
                 <AppBarButton x:ConnectionId='3' x:Name="Save" HorizontalAlignment="Stretch" Icon="Save" Label="Save" VerticalAlignment="Stretch"                   />
                 <AppBarButton x:ConnectionId='4' x:Name="Close" HorizontalAlignment="Stretch" Icon="Cancel" Label="Close" VerticalAlignment="Stretch"                    />
@@ -22,22 +22,25 @@
     <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
         <GridView x:ConnectionId='5' x:Name="NotesGrid" HorizontalAlignment="Left" Height="768" VerticalAlignment="Top" Width="1366"                                              >
             <Button x:ConnectionId='6' x:Name="NewNoteBtn" Content="New Note" Width="250" Height="125" FontSize="30"                         />
-            
+
 
 
 
 
         </GridView>
         <TextBox x:Name="Notepad" HorizontalAlignment="Left" Margin="32,32,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Height="704" Width="1104" AcceptsReturn="True" Visibility="Collapsed" />
-        <UI:AdControl ApplicationId="d25517cb-12d4-4699-8bdc-52040c712cab" AdUnitId="10043104" HorizontalAlignment="Left" Height="250" Margin="1175,32,-59,0" VerticalAlignment="Top" Width="250"/>
+        <UI:AdControl ApplicationId="d25517cb-12d4-4699-8bdc-52040c712cab" AdUnitId="10043104" HorizontalAlignment="Left" Height="250" Margin="1116,32,0,0" VerticalAlignment="Top" Width="250"/>
         <!--<MediaElement x:Name="media" Height="100" Width="100" Margin="1225,450,41,218" AudioCategory="BackgroundCapableMedia" 
               Source="Somesong.mp3" />-->
-        <Ellipse Margin="817,660,288,-45">
+        <Ellipse Margin="874.987,605.261,172.987,7.261" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+            <Ellipse.RenderTransform>
+                <CompositeTransform Rotation="0.524"/>
+            </Ellipse.RenderTransform>
             <Ellipse.Fill>
-                <ImageBrush ImageSource="red_guitar_wallpaper_by_luna_fantasma_by_luna_fantasma-d6u08c3.jpg" Opacity="0.5" />
+                <ImageBrush ImageSource="red_guitar_wallpaper_by_luna_fantasma_by_luna_fantasma-d6u08c3.jpg" Opacity="0.8" />
             </Ellipse.Fill>
         </Ellipse>
-        <Image Height="100" Width="100" Source="3d_piano_stairs_hd_desktop_wallpaper.jpg" Margin="1282,693,-16,-25" Stretch="Fill" RenderTransformOrigin="0.5,0.5">
+        <Image Height="100" Width="100" Source="3d_piano_stairs_hd_desktop_wallpaper.jpg" Margin="1243,668,23,0" Stretch="Fill" RenderTransformOrigin="0.5,0.5">
             <Image.Projection>
                 <PlaneProjection RotationX="-21.59" RotationY="46.914" RotationZ="-8.242"/>
             </Image.Projection>
