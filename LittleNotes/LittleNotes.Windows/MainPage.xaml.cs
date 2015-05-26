@@ -15,6 +15,7 @@ using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 
 
+
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=234238
 
 namespace LittleNotes
@@ -148,5 +149,194 @@ namespace LittleNotes
 
             }
         }
+
+        protected override void OnNavigatedTo(NavigationEventArgs e)
+    {
+    }
+
+    // You should use the MediaElement.IsFullWindow property instead
+    // to enable and disable full window rendering.
+    private bool _isFullscreenToggle = false;
+    public bool IsFullscreen
+    {
+        get { return _isFullscreenToggle; }
+        set { _isFullscreenToggle = value; }
+    }
+
+
+
+   
+        
+  
+
+
+    private void btnPlay_Click(object sender, RoutedEventArgs e)
+    {
+        if (videoMediaElement.DefaultPlaybackRate != 1)
+        {
+            videoMediaElement.DefaultPlaybackRate = 1.0;
+        }
+
+        videoMediaElement.Play();
+    }
+
+    private void btnPause_Click(object sender, RoutedEventArgs e)
+    {
+            videoMediaElement.Pause();
+    }
+
+    private void btnStop_Click(object sender, RoutedEventArgs e)
+    {
+        videoMediaElement.Stop();
+    }
+
+    private void btnForward_Click(object sender, RoutedEventArgs e)
+    {
+        videoMediaElement.DefaultPlaybackRate = 2.0;
+        videoMediaElement.Play();
+    }
+
+    private void btnReverse_Click(object sender, RoutedEventArgs e)
+    {
+        videoMediaElement.DefaultPlaybackRate = -2.0;
+        videoMediaElement.Play();;
+    }
+
+    private void btnVolumeDown_Click(object sender, RoutedEventArgs e)
+    {
+        if (videoMediaElement.IsMuted)
+        {
+            videoMediaElement.IsMuted = false;
+        }
+
+        if (videoMediaElement.Volume < 1)
+        {
+            videoMediaElement.Volume += .1;
+        }
+    }
+
+    private void btnMute_Click(object sender, RoutedEventArgs e)
+    {
+        videoMediaElement.IsMuted = !videoMediaElement.IsMuted;
+    }
+
+    private void btnVolumeUp_Click(object sender, RoutedEventArgs e)
+    {
+        if (videoMediaElement.IsMuted)
+        {
+            videoMediaElement.IsMuted = false;
+        }
+
+        if (videoMediaElement.Volume > 0)
+        {
+            videoMediaElement.Volume -= .1;
+        }
+    }
+
+    private void cbAudioTracks_SelectionChanged(
+        object sender, SelectionChangedEventArgs e)
+    {
+        videoMediaElement.AudioStreamIndex = cbAudioTracks.SelectedIndex;
+    }
+    
+    private void PopulateAudioTracks(
+        MediaElement media, ComboBox audioSelection)
+    {
+        if (media.AudioStreamCount > 0)
+        {
+            for (int index = 0; index < media.AudioStreamCount; index++)
+            {
+                ComboBoxItem track = new ComboBoxItem();
+                track.Content = media.GetAudioStreamLanguage(index);
+                audioSelection.Items.Add(track);
+            }
+        }
+    }
+
+    
+
+
+
+    private bool _sliderpressed = false;
+
+
+    void timelineSlider_ValueChanged(object sender, Windows.UI.Xaml.Controls.Primitives.RangeBaseValueChangedEventArgs e)
+    {
+        if (!_sliderpressed)
+        {
+            videoMediaElement.Position = TimeSpan.FromSeconds(e.NewValue);
+        }
+    }
+
+   
+
+    private void videoMediaElement_MediaFailed(object sender, ExceptionRoutedEventArgs e)
+    {
+        // get HRESULT from event args 
+        string hr = GetHresultFromErrorMessage(e);
+
+        // Handle media failed event appropriately 
+    }
+
+    private string GetHresultFromErrorMessage(ExceptionRoutedEventArgs e)
+    {
+        String hr = String.Empty;
+        String token = "HRESULT - ";
+        const int hrLength = 10;     // eg "0xFFFFFFFF"
+
+        int tokenPos = e.ErrorMessage.IndexOf(token, StringComparison.Ordinal);
+        if (tokenPos != -1)
+        {
+            hr = e.ErrorMessage.Substring(tokenPos + token.Length, hrLength);
+        }
+
+        return hr;
+    }
+
+    private DispatcherTimer _timer;
+
+   
+
+ 
+
+  
+
+   
+
+    private double SliderFrequency(TimeSpan timevalue)
+    {
+        double stepfrequency = -1;
+
+        double absvalue = (int)Math.Round(
+            timevalue.TotalSeconds, MidpointRounding.AwayFromZero);
+
+        stepfrequency = (int)(Math.Round(absvalue / 100));
+
+        if (timevalue.TotalMinutes >= 10 && timevalue.TotalMinutes < 30)
+        {
+            stepfrequency = 10;
+        }
+        else if (timevalue.TotalMinutes >= 30 && timevalue.TotalMinutes < 60)
+        {
+            stepfrequency = 30;
+        }
+        else if (timevalue.TotalHours >= 1)
+        {
+            stepfrequency = 60;
+        }
+
+        if (stepfrequency == 0) stepfrequency += 1;
+
+        if (stepfrequency == 1)
+        {
+            stepfrequency = absvalue / 100;
+        }
+
+        return stepfrequency;
     }
 }
+    }
+
+
+
+

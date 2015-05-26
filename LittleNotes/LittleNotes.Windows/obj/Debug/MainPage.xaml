@@ -21,7 +21,7 @@
 
     <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
         <GridView x:ConnectionId='5' x:Name="NotesGrid" HorizontalAlignment="Left" Height="768" VerticalAlignment="Top" Width="1366"                                              >
-            <Button x:ConnectionId='6' x:Name="NewNoteBtn" Content="New Note" Width="250" Height="125" FontSize="30"                         />
+            <Button x:ConnectionId='16' x:Name="NewNoteBtn" Content="New Note" Width="250" Height="125" FontSize="30"                         />
 
 
 
@@ -45,6 +45,46 @@
                 <PlaneProjection RotationX="-21.59" RotationY="46.914" RotationZ="-8.242"/>
             </Image.Projection>
         </Image>
+        <ContentControl x:Name="videoContainer" 
+                
+                HorizontalContentAlignment="Center" 
+                VerticalContentAlignment="Center" 
+                Height="400" Grid.Row="0" >
+            <MediaElement x:ConnectionId='15' Name="videoMediaElement"
+                  Source="" 
+                  
+                
+                                                             
+                  
+                  
+                  AutoPlay="False" />
+        </ContentControl>
+
+
+        <StackPanel Orientation="Horizontal" Margin="636,63,-636,-63">
+            <Button x:ConnectionId='6' Name="btnPlay"                       
+             Content="Play" />
+            <Button x:ConnectionId='7' Name="btnPause"                       
+             Content="Pause" />
+            <Button x:ConnectionId='8' Name="btnStop"                      
+             Content="Stop" />
+            <Button x:ConnectionId='9' Name="btnReverse"                         
+             Content="Rewind" />
+            <Button x:ConnectionId='10' Name="btnForward"                         
+             Content="Forward" />
+            <Button x:ConnectionId='11' Name="btnMute"                       
+             Content="Mute" />
+            <Button x:ConnectionId='12' Name="btnVolumeUp"                           
+             Content="-" />
+            <Button x:ConnectionId='13' Name="btnVolumeDown"                             
+             Content="+" />
+            <TextBlock Name="txtVolume" FontSize="14"
+               Text="{Binding Volume, ElementName=videoMediaElement}" 
+               VerticalAlignment="Center" HorizontalAlignment="Right"  />
+            <ComboBox x:ConnectionId='14' x:Name="cbAudioTracks"
+                                                                
+              Width="177" Margin="0,211,0,259" IsSynchronizedWithCurrentItem="False" AllowDrop="True" IsDropDownOpen="True" />
+        </StackPanel>
     </Grid>
 </Page> 
 

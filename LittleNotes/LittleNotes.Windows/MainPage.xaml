@@ -45,5 +45,45 @@
                 <PlaneProjection RotationX="-21.59" RotationY="46.914" RotationZ="-8.242"/>
             </Image.Projection>
         </Image>
+        <ContentControl x:Name="videoContainer" 
+                
+                HorizontalContentAlignment="Center" 
+                VerticalContentAlignment="Center" 
+                Height="400" Grid.Row="0" RenderTransformOrigin="0.5,0.49" >
+            <MediaElement Name="videoMediaElement"
+                  Source="" 
+                  
+                
+                  MediaFailed="videoMediaElement_MediaFailed"
+                  
+                  
+                  AutoPlay="False" />
+        </ContentControl>
+
+
+        <StackPanel Orientation="Horizontal" Margin="636,63,-636,-63">
+            <Button Name="btnPlay" Click="btnPlay_Click" 
+             Content="Play" />
+            <Button Name="btnPause" Click="btnPause_Click"
+             Content="Pause" />
+            <Button Name="btnStop" Click="btnStop_Click"
+             Content="Stop" />
+            <Button Name="btnReverse" Click="btnReverse_Click"
+             Content="Rewind" />
+            <Button Name="btnForward" Click="btnForward_Click"
+             Content="Forward" />
+            <Button Name="btnMute" Click="btnMute_Click" 
+             Content="Mute" />
+            <Button Name="btnVolumeUp" Click="btnVolumeUp_Click" 
+             Content="-" />
+            <Button Name="btnVolumeDown" Click="btnVolumeDown_Click" 
+             Content="+" />
+            <TextBlock Name="txtVolume" FontSize="14"
+               Text="{Binding Volume, ElementName=videoMediaElement}" 
+               VerticalAlignment="Center" HorizontalAlignment="Right"  />
+            <ComboBox x:Name="cbAudioTracks"
+              SelectionChanged="cbAudioTracks_SelectionChanged" 
+              Width="177" Margin="0,211,0,259" IsSynchronizedWithCurrentItem="False" AllowDrop="True" IsDropDownOpen="True" />
+        </StackPanel>
     </Grid>
 </Page> 

@@ -62,6 +62,9 @@
     <AppxPackagedFile Include="C:\Users\Andrei\Desktop\LittleNotes-master\LittleNotes\LittleNotes.Windows\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andrei\Desktop\LittleNotes-master\LittleNotes\LittleNotes.Windows\bin\Debug\FileOpenPickerPage1.xbf">
+      <PackagePath>FileOpenPickerPage1.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Andrei\Desktop\LittleNotes-master\LittleNotes\LittleNotes.Windows\bin\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>

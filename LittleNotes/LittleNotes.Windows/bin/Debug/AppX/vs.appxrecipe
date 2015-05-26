@@ -8,7 +8,7 @@
     <PackageArchitecture>neutral</PackageArchitecture>
     <PackageIdentityName>5109fdb6-b9e0-4e76-8e1a-cdfb4338ab85</PackageIdentityName>
     <IntermediateOutputPath>C:\Users\Andrei\Desktop\LittleNotes-master\LittleNotes\LittleNotes.Windows\obj\Debug\</IntermediateOutputPath>
-    <RegisteredManifestChecksum>8836B4F63B7F8A662C42695564874A941C8861035AB404BE5577528D51086BC5</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>1848451F0728C84FFAC5C6B4E2AA144F7A77F7D77400E65ECA7013261FF80FD2</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>5109fdb6-b9e0-4e76-8e1a-cdfb4338ab85_1.0.0.0_neutral__b3q168kgt5vg0</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>5109fdb6-b9e0-4e76-8e1a-cdfb4338ab85_b3q168kgt5vg0!App</RegisteredUserModeAppID>
     <RegisteredPackageID>5109fdb6-b9e0-4e76-8e1a-cdfb4338ab85</RegisteredPackageID>
@@ -20,13 +20,13 @@
     <AppXManifest Include="C:\Users\Andrei\Desktop\LittleNotes-master\LittleNotes\LittleNotes.Windows\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-05-26T10:51:37.432</Modified>
+      <Modified>2015-05-26T13:34:46.929</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Andrei\Desktop\LittleNotes-master\LittleNotes\LittleNotes.Windows\bin\Debug\LittleNotes.Windows.exe">
       <PackagePath>LittleNotes.Windows.exe</PackagePath>
-      <Modified>2015-05-26T11:14:17.829</Modified>
+      <Modified>2015-05-26T13:34:40.432</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\MSAdvertisingXaml\8.1\References\CommonConfiguration\neutral\Microsoft.Advertising.WinRT.UI.winmd">
       <PackagePath>Microsoft.Advertising.WinRT.UI.winmd</PackagePath>
@@ -84,17 +84,21 @@
       <PackagePath>App.xbf</PackagePath>
       <Modified>2015-05-16T07:46:42.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andrei\Desktop\LittleNotes-master\LittleNotes\LittleNotes.Windows\bin\Debug\FileOpenPickerPage1.xbf">
+      <PackagePath>FileOpenPickerPage1.xbf</PackagePath>
+      <Modified>2015-05-26T13:31:59.764</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Andrei\Desktop\LittleNotes-master\LittleNotes\LittleNotes.Windows\bin\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2015-05-26T11:14:17.492</Modified>
+      <Modified>2015-05-26T13:34:39.958</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Andrei\Desktop\LittleNotes-master\LittleNotes\LittleNotes.Windows\bin\Debug\LittleNotes.Windows.xr.xml">
       <PackagePath>LittleNotes.Windows.xr.xml</PackagePath>
-      <Modified>2015-05-26T11:14:17.366</Modified>
+      <Modified>2015-05-26T13:34:39.839</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Andrei\Desktop\LittleNotes-master\LittleNotes\LittleNotes.Windows\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2015-05-26T10:51:32.814</Modified>
+      <Modified>2015-05-26T13:34:40.910</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

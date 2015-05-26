@@ -133,5 +133,17 @@ namespace LittleNotes
             // TODO: Save application state and stop any background activity
             deferral.Complete();
         }
+
+#if WINDOWS_APP
+        /// <summary>
+        /// Invoked when the application is activated to display a file open picker.
+        /// </summary>
+        /// <param name="e">Details about the activation request.</param>
+        protected override void OnFileOpenPickerActivated(Windows.ApplicationModel.Activation.FileOpenPickerActivatedEventArgs e)
+        {
+            var fileOpenPickerPage = new LittleNotes.FileOpenPickerPage1();
+            fileOpenPickerPage.Activate(e);
+        }
+#endif
     }
 }

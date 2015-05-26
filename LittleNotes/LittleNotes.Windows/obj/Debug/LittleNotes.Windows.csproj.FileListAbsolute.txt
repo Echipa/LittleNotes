@@ -70,3 +70,8 @@ C:\Users\Andrei\Desktop\LittleNotes-master\LittleNotes\LittleNotes.Windows\obj\D
 C:\Users\Andrei\Desktop\LittleNotes-master\LittleNotes\LittleNotes.Windows\obj\Debug\qualifiers.txt.intermediate
 C:\Users\Andrei\Desktop\LittleNotes-master\LittleNotes\LittleNotes.Windows\obj\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\Andrei\Desktop\LittleNotes-master\LittleNotes\LittleNotes.Windows\obj\Debug\ProjectArchitectures.txt
+C:\Users\Andrei\Desktop\LittleNotes-master\LittleNotes\LittleNotes.Windows\bin\Debug\FileOpenPickerPage1.xbf
+C:\Users\Andrei\Desktop\LittleNotes-master\LittleNotes\LittleNotes.Windows\obj\Debug\FileOpenPickerPage1.g.i.cs
+C:\Users\Andrei\Desktop\LittleNotes-master\LittleNotes\LittleNotes.Windows\obj\Debug\FileOpenPickerPage1.g.cs
+C:\Users\Andrei\Desktop\LittleNotes-master\LittleNotes\LittleNotes.Windows\obj\Debug\FileOpenPickerPage1.xaml
+C:\Users\Andrei\Desktop\LittleNotes-master\LittleNotes\LittleNotes.Windows\obj\Debug\FileOpenPickerPage1.xbf
