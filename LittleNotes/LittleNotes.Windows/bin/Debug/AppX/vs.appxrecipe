@@ -9,18 +9,24 @@
     <PackageIdentityName>5109fdb6-b9e0-4e76-8e1a-cdfb4338ab85</PackageIdentityName>
     <IntermediateOutputPath>C:\Users\Andrei\Desktop\LittleNotes-master\LittleNotes\LittleNotes.Windows\obj\Debug\</IntermediateOutputPath>
     <RegisteredManifestChecksum>8836B4F63B7F8A662C42695564874A941C8861035AB404BE5577528D51086BC5</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>5109fdb6-b9e0-4e76-8e1a-cdfb4338ab85_1.0.0.0_neutral__b3q168kgt5vg0</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>5109fdb6-b9e0-4e76-8e1a-cdfb4338ab85_b3q168kgt5vg0!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>5109fdb6-b9e0-4e76-8e1a-cdfb4338ab85</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=HACKERX</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
     <AppXManifest Include="C:\Users\Andrei\Desktop\LittleNotes-master\LittleNotes\LittleNotes.Windows\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-05-16T10:06:31.427</Modified>
+      <Modified>2015-05-26T10:51:37.432</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Andrei\Desktop\LittleNotes-master\LittleNotes\LittleNotes.Windows\bin\Debug\LittleNotes.Windows.exe">
       <PackagePath>LittleNotes.Windows.exe</PackagePath>
-      <Modified>2015-05-16T10:09:09.988</Modified>
+      <Modified>2015-05-26T11:01:08.731</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\MSAdvertisingXaml\8.1\References\CommonConfiguration\neutral\Microsoft.Advertising.WinRT.UI.winmd">
       <PackagePath>Microsoft.Advertising.WinRT.UI.winmd</PackagePath>
@@ -46,41 +52,49 @@
       <PackagePath>Microsoft.Advertising.WinRT.UI\ormma.js</PackagePath>
       <Modified>2013-09-13T08:46:04.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andrei\Desktop\LittleNotes-master\LittleNotes\LittleNotes.Windows\3d_piano_stairs_hd_desktop_wallpaper.jpg">
+      <PackagePath>3d_piano_stairs_hd_desktop_wallpaper.jpg</PackagePath>
+      <Modified>2015-05-26T10:45:03.783</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andrei\Desktop\LittleNotes-master\LittleNotes\LittleNotes.Windows\red_guitar_wallpaper_by_luna_fantasma_by_luna_fantasma-d6u08c3.jpg">
+      <PackagePath>red_guitar_wallpaper_by_luna_fantasma_by_luna_fantasma-d6u08c3.jpg</PackagePath>
+      <Modified>2015-05-26T10:50:07.817</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Andrei\Desktop\LittleNotes-master\LittleNotes\LittleNotes.Windows\Assets\Logo.scale-100.png">
       <PackagePath>Assets\Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-05-12T08:09:44.000</Modified>
+      <Modified>2015-05-16T07:46:42.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Andrei\Desktop\LittleNotes-master\LittleNotes\LittleNotes.Windows\Assets\SmallLogo.scale-100.png">
       <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-05-12T08:09:44.000</Modified>
+      <Modified>2015-05-16T07:46:42.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Andrei\Desktop\LittleNotes-master\LittleNotes\LittleNotes.Windows\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-05-12T08:09:44.000</Modified>
+      <Modified>2015-05-16T07:46:42.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Andrei\Desktop\LittleNotes-master\LittleNotes\LittleNotes.Windows\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-05-12T08:09:44.000</Modified>
+      <Modified>2015-05-16T07:46:42.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Andrei\Desktop\LittleNotes-master\LittleNotes\LittleNotes.Windows\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2015-05-12T08:09:44.000</Modified>
+      <Modified>2015-05-16T07:46:42.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Andrei\Desktop\LittleNotes-master\LittleNotes\LittleNotes.Windows\bin\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2015-05-16T10:09:09.515</Modified>
+      <Modified>2015-05-26T11:01:08.379</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Andrei\Desktop\LittleNotes-master\LittleNotes\LittleNotes.Windows\bin\Debug\LittleNotes.Windows.xr.xml">
       <PackagePath>LittleNotes.Windows.xr.xml</PackagePath>
-      <Modified>2015-05-16T10:09:09.493</Modified>
+      <Modified>2015-05-26T11:01:08.341</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Andrei\Desktop\LittleNotes-master\LittleNotes\LittleNotes.Windows\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2015-05-16T10:06:22.936</Modified>
+      <Modified>2015-05-26T10:51:32.814</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

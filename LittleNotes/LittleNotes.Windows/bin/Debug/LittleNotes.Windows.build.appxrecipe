@@ -37,6 +37,12 @@
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\MSAdvertisingXaml\8.1\Redist\CommonConfiguration\neutral\Microsoft.Advertising.WinRT.UI\ormma.js">
       <PackagePath>Microsoft.Advertising.WinRT.UI\ormma.js</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andrei\Desktop\LittleNotes-master\LittleNotes\LittleNotes.Windows\3d_piano_stairs_hd_desktop_wallpaper.jpg">
+      <PackagePath>3d_piano_stairs_hd_desktop_wallpaper.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andrei\Desktop\LittleNotes-master\LittleNotes\LittleNotes.Windows\red_guitar_wallpaper_by_luna_fantasma_by_luna_fantasma-d6u08c3.jpg">
+      <PackagePath>red_guitar_wallpaper_by_luna_fantasma_by_luna_fantasma-d6u08c3.jpg</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Andrei\Desktop\LittleNotes-master\LittleNotes\LittleNotes.Windows\Assets\Logo.scale-100.png">
       <PackagePath>Assets\Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
