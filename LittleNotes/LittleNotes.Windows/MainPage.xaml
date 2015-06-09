@@ -20,7 +20,7 @@
     </Page.BottomAppBar>
 
     <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
-        <GridView x:Name="NotesGrid" HorizontalAlignment="Left" Height="768" VerticalAlignment="Top" Width="1366" SelectionChanged="NotesGrid_SelectionChanged">
+        <GridView x:Name="NotesGrid" HorizontalAlignment="Left" Height="768" VerticalAlignment="Top" Width="1366" SelectionChanged="NotesGrid_SelectionChanged" Margin="-10,0,0,0">
             <Button x:Name="NewNoteBtn" Content="New Note" Width="250" Height="125" FontSize="30" Click="NewNoteBtn_Click"/>
 
 
@@ -28,7 +28,7 @@
 
 
         </GridView>
-        <TextBox x:Name="Notepad" HorizontalAlignment="Left" Margin="32,32,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Height="704" Width="1104" AcceptsReturn="True" Visibility="Collapsed" />
+        <TextBox x:Name="Notepad" HorizontalAlignment="Left" Margin="32,32,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Height="468" Width="780" AcceptsReturn="True" Visibility="Collapsed" />
         <UI:AdControl ApplicationId="d25517cb-12d4-4699-8bdc-52040c712cab" AdUnitId="10043104" HorizontalAlignment="Left" Height="250" Margin="1116,32,0,0" VerticalAlignment="Top" Width="250"/>
         <!--<MediaElement x:Name="media" Height="100" Width="100" Margin="1225,450,41,218" AudioCategory="BackgroundCapableMedia" 
               Source="Somesong.mp3" />-->
@@ -48,7 +48,7 @@
         <ContentControl x:Name="videoContainer" 
                 
                 HorizontalContentAlignment="Center" 
-                VerticalContentAlignment="Center" Grid.Row="0" RenderTransformOrigin="0.474,0.32" Margin="10,195,714,195" >
+                VerticalContentAlignment="Center" Grid.Row="0" RenderTransformOrigin="0.474,0.32" Margin="586,196,255,268" >
             <MediaElement Name="videoMediaElement"
                   Source="Exploring a Team Site in SharePoint 2013.mp4" 
                   
@@ -60,7 +60,7 @@
         </ContentControl>
 
 
-        <StackPanel Orientation="Horizontal" Margin="652,230,0,-113">
+        <StackPanel x:Name="Stack" Orientation="Horizontal" Margin="586,196,10,-70">
             <Button Name="btnPlay" Click="btnPlay_Click" 
              Content="Play" />
             <Button Name="btnPause" Click="btnPause_Click"
@@ -80,9 +80,6 @@
             <TextBlock Name="txtVolume" FontSize="14"
                Text="{Binding Volume, ElementName=videoMediaElement}" 
                VerticalAlignment="Center" HorizontalAlignment="Right"  />
-            <ComboBox x:Name="cbAudioTracks"
-              SelectionChanged="cbAudioTracks_SelectionChanged" 
-              Width="177" Margin="0,211,0,259" IsSynchronizedWithCurrentItem="False" AllowDrop="True" IsDropDownOpen="True" />
         </StackPanel>
     </Grid>
 </Page> 

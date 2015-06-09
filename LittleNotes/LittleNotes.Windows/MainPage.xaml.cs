@@ -36,7 +36,8 @@ namespace LittleNotes
 
         private void NewNoteBtn_Click(object sender, RoutedEventArgs e)
         {
-
+            videoContainer.Visibility = Visibility.Collapsed;
+            Stack.Visibility = Visibility.Collapsed;
             // Hide the menu.
             NotesGrid.Visibility = Visibility.Collapsed;
             // Reset the content of the text editor since we are starting a blank note.
@@ -60,6 +61,8 @@ namespace LittleNotes
         private void SaveClose_Click(object sender, RoutedEventArgs e)
         {
             // If we are in text editing mode.
+            videoContainer.Visibility = Visibility.Visible;
+            Stack.Visibility = Visibility.Visible;
             if (Notepad.Visibility == Visibility.Visible)
             {
                 // Creates a new textblock that for this note.
@@ -134,13 +137,15 @@ namespace LittleNotes
 
 
             }
-
+            
 
         }
 
         private void Close_Click(object sender, RoutedEventArgs e)
         {
             // If we are in text editing mode.
+            videoContainer.Visibility = Visibility.Visible;
+            Stack.Visibility = Visibility.Visible;
             if (Notepad.Visibility == Visibility.Visible)
             {
                 // Go back to main menu.
@@ -233,10 +238,10 @@ namespace LittleNotes
         }
     }
 
-    private void cbAudioTracks_SelectionChanged(
+   /* private void cbAudioTracks_SelectionChanged(
         object sender, SelectionChangedEventArgs e)
     {
-        videoMediaElement.AudioStreamIndex = cbAudioTracks.SelectedIndex;
+        videoMediaElement.AudioStreamIndex = cbVideoTracks.SelectedIndex;
     }
     
     private void PopulateAudioTracks(
@@ -252,7 +257,7 @@ namespace LittleNotes
             }
         }
     }
-
+        */
     
 
 
